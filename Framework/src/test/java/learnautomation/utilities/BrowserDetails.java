@@ -16,7 +16,7 @@ public class BrowserDetails {
 		}
 		else if(browserName.equals("firefox"))
 		{
-			//Test
+			//Test1
 		}
 		
 		else
