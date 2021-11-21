@@ -36,7 +36,7 @@ public class LoginTestCRM extends BaseClass{
 		
 		logger.pass("Login Success");
 		
-		//Helper.captureScreenshot(driver);
+		
 	}
 	
 
