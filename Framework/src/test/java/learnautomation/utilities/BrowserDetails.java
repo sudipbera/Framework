@@ -13,7 +13,6 @@ public class BrowserDetails {
 		{
 			System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
 			driver = new ChromeDriver();
-			
 		}
 		else if(browserName.equals("firefox"))
 		{
