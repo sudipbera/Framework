@@ -16,7 +16,7 @@ public class BrowserDetails {
 		}
 		else if(browserName.equals("firefox"))
 		{
-			//Test1234
+			//Poll SCM
 		}
 		
 		else
