@@ -9,7 +9,7 @@ public class BrowserDetails {
 	
 	public static WebDriver startApplication(WebDriver driver,String browserName, String appURL)
 	{
-		if(browserName.equals("chrome"))
+		if(browserName.equals("Chrome"))
 		{
 			System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
 			driver = new ChromeDriver();

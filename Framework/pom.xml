@@ -41,4 +41,85 @@
 		</dependency>
 
 	</dependencies>
+	
+	<build>
+	
+	<plugins>
+   
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.0.0-M5</version>
+        <configuration>
+          <suiteXmlFiles>
+            <suiteXmlFile>XMLFiles/${xmlFiles}</suiteXmlFile>
+          </suiteXmlFiles>
+          
+          <systemPropertyVariables>
+          <executionBrowser>${Browser}</executionBrowser>
+          <appURL>${urlToBeTested}</appURL>
+          </systemPropertyVariables>
+        </configuration>
+      </plugin>
+      
+      <plugin>
+			<groupId>ch.fortysix</groupId>
+			<artifactId>maven-postman-plugin</artifactId>
+			<executions>
+				<execution>
+				
+				<id>send a mail</id>
+				<phase>test</phase>
+				<goals>
+				<goal>send-mail</goal>
+				</goals>
+				<inherited>true</inherited>
+				
+				<configuration>
+					<!-- From Email address -->
+					<from>sudipbera.online@gmail.com</from>
+					
+					<!--  Email subject -->
+					<subject>Test Automation Report</subject>
+					
+					<!-- Fail the build if the mail doesnt reach -->
+					<failonerror>true</failonerror>
+					
+					<!-- host -->
+					<mailhost>smtp.gmail.com</mailhost>
+					<!-- port of the host -->
+					<mailport>465</mailport>
+					<mailssl>true</mailssl>
+					<mailAltConfig>true</mailAltConfig>
+					
+					<!-- Email Authentication(USername and Password) -->
+					<mailuser>sudipbera.online@gmail.com</mailuser>
+					<mailpassword>Nikhilesh@1991online</mailpassword>
+					
+					<receivers>
+						<!-- To Email address -->
+						<receiver>sudipbera.te@gmail.com</receiver>
+					</receivers>
+					
+					<fileSets>
+					<fileSet>
+						<!-- Report directory Path -->
+						<directory>C://Users//espl5998//git//Framework//Framework//Reports</directory>
+						<includes>
+							<!-- Report file name -->
+							<include>*.html</include>
+						</includes>
+						<!-- Use Regular Expressions like **/*.html if you want all the html files to send-->
+						</fileSet>
+					</fileSets>				
+				
+				</configuration>
+				</execution>
+			</executions>
+		</plugin>
+    
+</plugins>
+	
+	</build>
+	
 </project>
