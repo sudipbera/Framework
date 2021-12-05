@@ -16,7 +16,7 @@ public class BrowserDetails {
 		}
 		else if(browserName.equals("firefox"))
 		{
-			//Poll SCM H/2
+			//Removing Poll SCM H/1
 		}
 		
 		else
