@@ -47,7 +47,8 @@ public class BaseClass {
 		Reporter.log("Setting Done- Test can be started", true);
 
 	}
-	
+	//Parameters are from Maven build, check Maven Run configuration >> goals and paramters been used. Note- later this will used
+	//from windows cmd and then from jenkins build from Build with Parameters option.
 	@Parameters({"Browser","urlToBeTested"})
 	@BeforeClass
 	public void setup(String Browser,String url) {
