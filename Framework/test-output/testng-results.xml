@@ -8,12 +8,12 @@
       <![CDATA[Setting Done- Test can be started]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="33" started-at="2021-12-05T13:42:50Z" finished-at="2021-12-05T13:42:50Z">
+  <suite name="Suite" duration-ms="30" started-at="2021-12-05T14:07:13Z" finished-at="2021-12-05T14:07:13Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="33" started-at="2021-12-05T13:42:50Z" finished-at="2021-12-05T13:42:50Z">
+    <test name="Test" duration-ms="30" started-at="2021-12-05T14:07:13Z" finished-at="2021-12-05T14:07:13Z">
       <class name="learnautomation.testcases.LoginTestCRM">
-        <test-method status="PASS" signature="setupSuite()[pri:0, instance:learnautomation.testcases.LoginTestCRM@6a4f787b]" name="setupSuite" is-config="true" duration-ms="478" started-at="2021-12-05T13:42:49Z" finished-at="2021-12-05T13:42:50Z">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:learnautomation.testcases.LoginTestCRM@6a4f787b]" name="setupSuite" is-config="true" duration-ms="473" started-at="2021-12-05T14:07:13Z" finished-at="2021-12-05T14:07:13Z">
           <reporter-output>
             <line>
               <![CDATA[Setting up reports and Test is getting ready]]>
@@ -23,7 +23,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupSuite -->
-        <test-method status="FAIL" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:learnautomation.testcases.LoginTestCRM@6a4f787b]" name="setup" is-config="true" duration-ms="0" started-at="2021-12-05T13:42:50Z" finished-at="2021-12-05T13:42:50Z">
+        <test-method status="FAIL" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:learnautomation.testcases.LoginTestCRM@6a4f787b]" name="setup" is-config="true" duration-ms="0" started-at="2021-12-05T14:07:13Z" finished-at="2021-12-05T14:07:13Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -63,7 +63,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="loginApp()[pri:1, instance:learnautomation.testcases.LoginTestCRM@6a4f787b]" name="loginApp" duration-ms="0" started-at="2021-12-05T13:42:50Z" finished-at="2021-12-05T13:42:50Z">
+        <test-method status="SKIP" signature="loginApp()[pri:1, instance:learnautomation.testcases.LoginTestCRM@6a4f787b]" name="loginApp" duration-ms="0" started-at="2021-12-05T14:07:13Z" finished-at="2021-12-05T14:07:13Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -103,11 +103,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginApp -->
-        <test-method status="SKIP" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:learnautomation.testcases.LoginTestCRM@6a4f787b]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2021-12-05T13:42:50Z" finished-at="2021-12-05T13:42:50Z">
+        <test-method status="SKIP" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:learnautomation.testcases.LoginTestCRM@6a4f787b]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2021-12-05T14:07:13Z" finished-at="2021-12-05T14:07:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:learnautomation.testcases.LoginTestCRM@6a4f787b]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-12-05T13:42:50Z" finished-at="2021-12-05T13:42:50Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:learnautomation.testcases.LoginTestCRM@6a4f787b]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-12-05T14:07:13Z" finished-at="2021-12-05T14:07:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
