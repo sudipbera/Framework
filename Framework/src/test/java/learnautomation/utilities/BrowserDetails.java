@@ -4,6 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class BrowserDetails {
 	
@@ -14,9 +15,10 @@ public class BrowserDetails {
 			System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
 			driver = new ChromeDriver();
 		}
-		else if(browserName.equals("firefox"))
+		else if(browserName.equals("Firefox"))
 		{
-			//Removing Poll SCM H/1
+			System.setProperty("webdriver.gecko.driver", "./Drivers/geckodriver.exe");
+			driver= new FirefoxDriver();
 		}
 		
 		else
